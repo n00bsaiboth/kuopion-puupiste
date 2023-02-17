@@ -1,0 +1,11 @@
+name: kuopion-puupiste
+recipe: lamp
+config:
+  php: '8.1'
+  webroot: .
+services:
+  pma:
+    type: phpmyadmin
+    hosts:
+      - database
+

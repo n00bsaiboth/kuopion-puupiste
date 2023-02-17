@@ -1,0 +1,36 @@
+{
+  "name": "bootstrap-starter-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/n00bsaiboth/Bootstrap-starter-kit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n00bsaiboth/Bootstrap-starter-kit/issues"
+  },
+  "homepage": "https://github.com/n00bsaiboth/Bootstrap-starter-kit#readme",
+  "devDependencies": {
+    "grunt": "^1.5.3",
+    "grunt-contrib-compass": "^1.1.1",
+    "grunt-contrib-concat": "^2.1.0",
+    "grunt-contrib-cssmin": "^4.0.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-jshint": "^3.2.0",
+    "grunt-contrib-nodeunit": "^4.0.0",
+    "grunt-contrib-sass": "^2.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.1.0",
+    "grunt-webfonts": "^4.0.2",
+    "load-grunt-tasks": "^5.1.0",
+    "node-sass": "^7.0.1"
+  }
+}

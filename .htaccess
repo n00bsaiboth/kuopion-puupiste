@@ -1,0 +1,15 @@
+<ifModule mod_headers.c>
+	Header set Content-Security-Policy-Report-Only "default-src 'self' kuopion-puupiste.fi fonts.gstatic.com; img-src 'self'; style-src 'self' 'unsafe-inline' fonts.googleapis.com;  script-src 'self'; base-uri 'self'; form-action 'self'; connect-src https://kuopion-puupiste.fi; frame-src https://kuopion-puupiste.fi;"
+	Header set X-XSS-Protection "1; mode=block"
+	Header set X-Frame-Options "SAMEORIGIN"
+	Header set X-Content-Type-Options nosniff
+	Header set Strict-Transport-Security "max-age=63072000; includeSubDomains"
+	Header set Referrer-Policy "same-origin"
+</ifModule>
+
+<ifModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteCond %{HTTP_POST} ^testi-pannu.net [OR]
+	RewriteCond %{HTTP_POST} ^www.testi-pannu.net$
+	RewriteRule (.*)$ https://kuopion-puupiste.fi/$1 [R=301,L]
+</ifModule>
