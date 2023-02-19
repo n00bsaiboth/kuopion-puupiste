@@ -1,0 +1,37 @@
+/* Row with equal heights columns
+ *
+ */
+
+@mixin row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}
+
+/* text shadow
+ *
+ */
+
+@mixin text-shadow {
+    text-shadow: 2px 2px 4px $gray-400;
+}
+
+/* buttons
+ *
+ */
+
+ 
+@mixin custom-gray-button {
+    background-color: $white;
+    color: $gray-900;
+    font-size: $font-size-base;
+    padding: 10px 20px;
+    border-radius: $border-radius;
+    border: 2px solid $gray-900;
+    &:hover {
+        background-color: $gray-900;
+        color: $white;
+        box-shadow: 2px 2px 4px $gray-400;
+    }
+}

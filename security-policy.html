@@ -1,31 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Security Policy | testi-pannu.net</title>
-    <link rel="stylesheet" href="assets/css/style.min.css">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- search engine optimization -->
+	<title>Kuopion puupiste</title>
+	
+	<!-- search engine optimization -->
 
-	<meta name="robots" content="noindex, nofollow">
+	<meta name="robots" content="index, follow">
 
-	<link rel="canonical" href="https://testi-pannu.net">
+	<link rel="canonical" href="https://kuopion-puupiste.lndo.site">
 
-	<meta name="description" content="Welcome to the testi-pannu productions security policy.">
-	<meta name="keywords" content="Coding factory, testi-pannu, testi-pannu.net, Security Policy, Suomi, Finland, Turku, Varsinais-suomi">
-	<meta name="author" content="Jussi Jokinen">
+	<meta name="description" content="Kuopion puupiste">
+	<meta name="keywords" content="Kuopion puupiste, Suomi, Finland, Kuopio, Pohjois-Savo">
+	<meta name="author" content="Joel Virkkunen">
 
-	<meta property="og:title" content="Welcome to the testi-pannu productions security policy.">
+	<meta property="og:title" content="Kuopion puupiste">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://testi-pannu.net">
-	<meta property="og:description" content="Here is the security Policy of this site ">
+	<meta property="og:url" content="https://kuopion-puupiste.lndo.site">
+	<meta property="og:description" content="Tervetuloa Kuopion puupisteelle.">
 
 	<!-- favicon -->
 
 	<link rel="icon" href="assets/img/favicon/favicon.ico">
-	<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="180x180" href=assets/img/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
 	<link rel="manifest" href="assets/img/favicon/site.webmanifest">
@@ -33,35 +33,59 @@
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="theme-color" content="#ffffff">
 
-    <!-- Matomo -->
-	<script>
-		var _paq = window._paq = window._paq || [];
-		/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-		_paq.push(['trackPageView']);
-		_paq.push(['enableLinkTracking']);
-		(function() {
-			var u="//matomo.testi-pannu.net/";
-			_paq.push(['setTrackerUrl', u+'matomo.php']);
-			_paq.push(['setSiteId', '2']);
-			var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-			g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-		})();
-	</script>
-	<!-- End Matomo Code -->
-  </head>
-  <body>
-    <header>
+	<link rel="stylesheet" href="assets/css/style.min.css" />
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand p-2" href="./index.html">Kuopion puupiste</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+								<a class="nav-link p-2" href="./index.html">Etusivu</a>
+						</li>
+				</ul>
+		</div>
+	</nav>
+
+	<header>
 		<div class="container">
 			<div class="jumbotron">
-				<h1 class="display-4">Security Policy</h1>
+				<h1 class="display-4">Kuopion puupiste</h1>
 				<hr class="my-4">
-				<p>Welcome visitor, </p>
-				<p>Here is our security policy. As you can see, because this is a demo site, we update the info later on.</p>
+				<p>Tervetuloa Kuopion puupisteelle</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis congue dui, sed pulvinar orci. Mauris tellus dolor, sollicitudin ut bibendum viverra, tincidunt id purus. Praesent tincidunt elementum eros, suscipit congue mauris pharetra vitae. Donec ac tempus metus. Proin dui turpis, volutpat quis sagittis eu, pretium quis dolor. Etiam at vestibulum dolor, in vulputate magna. Phasellus vulputate eleifend sem in suscipit. Nulla convallis urna at maximus mollis. Suspendisse pulvinar consequat tellus, sed ornare sapien volutpat eu. Donec ullamcorper viverra libero, in hendrerit massa consectetur sed.</p>
 				<hr class="my-4">
 			</div>
 		</div>
 	</header>
 
-	<script src="assets/js/main.min.js"></script>
-  </body>
+	<section>
+		<article>
+			<div class="container">
+				<h2 class="h3">Individual visitors</h2>
+				<p>So far, we have this many <?php if(isset($count) && !empty($count)) { echo $count; } ?> visitors.</p>
+				<hr class="my-4">
+			</div>
+		</article>
+	</section>
+
+	<section>
+		<article>
+			<div class="container">
+				<h3>For more info</h3>
+
+				<hr class="my-4">
+			</div>
+		</article>
+	</section>
+    <footer>
+        
+    </footer>
+    <script src="assets/js/main.min.js"></script>
+</body>
 </html>

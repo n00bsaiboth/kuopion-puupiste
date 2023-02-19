@@ -1,0 +1,30 @@
+/* setting up fonts
+ *
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Oswald&family=Roboto&display=swap');
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Oswald", "Roboto", sans-serif;
+}
+ 
+p, a {
+    font-family: "Lato", "Open Sans", Helvetica, sans-serif;
+}
+
+a {
+    color: $gray-900;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+/* text-shadow
+ *
+ */
+
+.text-shadow {
+    text-shadow: 2px 2px 4px $gray-900;
+}
